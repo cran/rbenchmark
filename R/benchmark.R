@@ -30,5 +30,8 @@ function(
             system.time(replicate(replications, { eval(test, environment); NULL })),
          tests,
          replications)))
-   result[do.call(base::order, result[order]), columns, drop=FALSE] }
+   if (is.null(order))
+      result[,columns,drop=FALSE]
+   else
+      result[do.call(base::order, result[order]), columns, drop=FALSE] }
 
