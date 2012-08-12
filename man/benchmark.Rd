@@ -81,6 +81,7 @@ See <http://code.google.com/p/rbenchmark> for more details.
 
 }
 \examples{
+\dontrun{
 # example 1
 # benchmark the allocation of one 10^6-element numeric vector, 
 # replicated 100 times
@@ -126,4 +127,5 @@ do.call(benchmark,
      list(replications=100, 
           columns=c('test', 'elapsed', 'replications'), 
           order='elapsed')))
+}
 }
