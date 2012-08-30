@@ -1,8 +1,8 @@
-55f965752d79d5a0a6ab1b00e74d452b *ChangeLog
-5e5aaf60aeabc7dffd9594cf5a1c05f2 *DESCRIPTION
+2875e6dc4df3b61064ad01835a46d85c *ChangeLog
+eca17c4b39ae0c1f2a88f7506cd23594 *DESCRIPTION
 8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
-e9e8452139bc708054232370f9af5713 *R/benchmark.R
+49c6fa93b53d1d73fb14b3db172f63a5 *R/benchmark.R
 d75f925c19e9496b4666cdff13110ac2 *demo/00Index
-7ed0ca06334f300b0374d84f370ad588 *demo/benchmark.R
-d1cc97f9c1b1a7baa6ccede7639edaf5 *man/benchmark-package.Rd
-c2ff19bfd27b30c7c3865b3186b08520 *man/benchmark.Rd
+0c298215289c50161d364832f070e31d *demo/benchmark.R
+8eb07610512122ecfe54b06c5efad251 *man/benchmark-package.Rd
+eef7cfeba9e0ce94a052d48f6a96ac90 *man/benchmark.Rd
